@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 20px 50px;
+    background-color: white !important;
+    
+}
+
+.nav-item:hover{
+    background-color:rgb(236, 229, 229);
+}
+.btn{
+    height: 50px !important;
+    border-radius: 8px 8px 8px 0 !important;
+    background-color: blue !important;
+}
+
+.btn:hover{
+    opacity: 2px;
+    box-shadow: grey;
+}
+.hero-section{
+    padding: 10px;
+    margin: 60px;
+    border-radius: 20px 20px;
+    
+}
+
+.hero{
+    position: absolute;
+    right: 120px;
+    top: 100px;
+    border-radius: 20px;
+    width: 380px;
+    height: 500px !important;
+}
+
+span{
+    text-transform: uppercase;
+    font-size: x-small;
+}
+.icons{
+    text-align: center;  
+}
+h5{
+    text-transform: capitalize;
+}
+.con{
+    background-color:rgb(229, 252, 252);
+    width: 70px;
+    height: 70px;
+    border-radius: 10px 10px 10px 2px;
+    padding: 10px;
+}
+.content{
+    background-color:rgb(229, 252, 252);
+    /* padding: 80px 10px 50px 10px !important; */
+}
+.money{
+    padding: 150px 100px;
+    color: indigo;   
+}
+.money a{
+    color: indigo;
+
+}
+.testimonial{
+    background-color: blue !important;
+}
+.feature-section{
+    background-color: rgb(255, 251, 251);
+    padding: 40px;
+    
+}
+ul li a{
+    color: rgb(179, 180, 228);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ul li{
+    list-style-type: none;
+}
+blockquote{
+    display: flex ;
+    flex-wrap: wrap;
+    line-height: 1rem;
+}
+.wrap-img{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+
+.footer-section{
+    background-color: blue !important;
+}
+.address{ direction: rtl; }
