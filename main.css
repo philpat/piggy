@@ -4,9 +4,16 @@ body{
     box-sizing: border-box;
 }
 .navbar{
-    padding: 20px 50px;
+    padding: 20px 50px ;
     background-color: white !important;
+    text-align: center;
     
+}
+.navbar ul li{
+    margin-right: 30px;
+    text-align: center;
+    /* padding: 5px; */
+    /* align-items: center; */
 }
 
 .nav-item:hover{
@@ -16,6 +23,10 @@ body{
     height: 50px !important;
     border-radius: 8px 8px 8px 0 !important;
     background-color: blue !important;
+}
+.radius{
+    /* height: 50px !important; */
+    border-radius: 8px 8px 8px 0 !important;
 }
 
 .btn:hover{
@@ -92,8 +103,168 @@ blockquote{
     display: grid;
     grid-template-columns: 1fr 7fr;
 }
+.customers-side{
+    padding: 60px 60px;
+}
 
 .footer-section{
     background-color: blue !important;
 }
+.foot{
+    background-color: transparent;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .foot{
+        background-color: rgb(13, 54, 219);
+        height: 5opx;
+    }
+    
+}
+.dropbtn {
+    /* background-color: #04AA6D; */
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    margin-right: 25px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn:hover{
+    background-color:rgb(236, 229, 229);
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-left: 50px;
+  }
+  
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
 .address{ direction: rtl; }
+.foot1{direction: rtl;}
+
+/* invest html */
+.invest{
+    background-color: indigo !important;
+}
+
+.nac{
+    border-radius: 8px 8px 8px 0px;
+    background-color: rgb(230, 225,235);
+    padding: 20px;
+    color: indigo;
+}
+/* @media only screen and (max-width: 600px) {
+    .nac{
+        display: flex;
+        justify-content: center;
+    }
+} */
+.we{
+    display: block !important;
+}
+.simple{
+    padding: 180px 0px 180px 0px;
+}
+.simple h3{
+    color: indigo;
+}
+
+.ment h6{
+    font-weight: 700;
+    font-size: bold;
+    margin-top: 20px;
+}
+.ment p{
+    font-size: small;
+}
+.easy{
+    padding: 180px 0px 180px 0px;
+    margin-left: 5px;
+}
+
+.per{
+    
+    padding: 2px !important;
+}
+.per:hover{
+    box-shadow: 0px 0px 10px 0px rgb(214, 203, 203);
+}
+
+/* login */
+
+
+
+.form-content{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px 10px 10px 0px;
+    box-shadow: 0px 0px 10px 0px #000;
+    
+}
+.pass a:hover{
+    color: rgb(130, 130, 197) !important;
+}
+
+/* faqs */
+.faqs{
+    padding: 100px;
+}
+.form-text{
+    width: 600px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 15px;
+}
+/* stories */
+
+.carousel-control-prev, .carousel-control-next{
+    width: 30px;
+    height: 30px;
+    bottom: 180px !important;
+    margin-top: -50px;
+}
+.carousel-control-prev{
+    left: 30px;
+}
+
+.carousel-control-next{
+    left: calc(30px + 10px);
+}
+.carousel-control-prev-icon{
+    background-color: rgb(190, 200, 226);
+}
+.carousel-control-next-icon{
+    background-color: rgb(214, 218, 238);
+}
+
+/* account */
+option{
+    overflow: scroll !important;
+    height: 10px !important;
+}
+
+
